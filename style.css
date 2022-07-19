@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+    text-align: center;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 75px;
+    cursor: pointer;
+    color: darkblue;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#buttons{
+    margin: 20px;
+}
